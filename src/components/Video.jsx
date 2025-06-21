@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // ✅ All video imports
-import vid from "../images/video (1).mp4";
+import vid from "../images/video (15).mp4";
 import vid1 from "../images/video (2).mp4";
 import vid2 from "../images/video (3).mp4";
 import vid3 from "../images/video (4).mp4";
@@ -15,7 +15,7 @@ import vid10 from "../images/video (11).mp4";
 import vid11 from "../images/video (12).mp4";
 import vid12 from "../images/video (13).mp4";
 import vid13 from "../images/video (14).mp4";
-import vid14 from "../images/video (15).mp4";
+import vid14 from "../images/video (1).mp4";
 import vid15 from "../images/video (16).mp4";
 import { Link } from "react-router-dom";
 
@@ -46,7 +46,7 @@ export default function VideoGallery() {
 
   return (
     <div className="min-h-screen w-screen bg-black text-white px-4 py-10 overflow-x-hidden">
-      <h1 className="text-4xl font-bold text-center mb-10">🎥 Sweet Moments!</h1>
+      <h1 className="text-4xl font-bold text-center mb-10">Sweet Moments!</h1>
 
       {/* Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
